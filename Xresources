@@ -1,0 +1,68 @@
+! special
+*.foreground:   #F2F2F2
+*.background:   #333333
+*.cursorColor:  #F6F6F6
+*.HighlightColor: #48B9C7
+
+! black
+*.color0:       #333333
+*.color8:       #88807C
+
+! red
+*.color1:       #CC0000
+*.color9:       #F15D22
+
+! green
+*.color2:       #4E9A06
+*.color10:      #73C48F
+
+! yellow
+*.color3:       #C4A000
+*.color11:      #FFCE51
+
+! blue
+*.color4:       #3465A4
+*.color12:      #48B9C7
+
+! magenta
+*.color5:       #75507B
+*.color13:      #AD7FA8
+
+! cyan
+*.color6:       #06989A
+*.color14:      #34E2E2
+
+! white
+*.color7:       #D3D7CF
+*.color15:      #EEEEEC
+
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+xrandr --dpi 96
+
+!rofi.color-window: argb: EE000000, argb: EE000000, argb: EE000000
+!rofi.color-normal: argb: 00000000, #DEDEDE, argb: 00000000, #DEDEDE
+
+! RXVT
+URxvt.scrollBar: false
+!URxvt*font: xft:NotoMono Nerd Font Mono:pixelsize=13, xft:Dejavu Sans:pixelsize=13
+!URxvt.font: xft:FuraCode Nerd Font Mono:style=Regular:pixelsize=14,xft:Dejavu Sans:pixelsize=14,xft:Noto Emoji
+!URxvt.font: xft:FiraCode Nerd Font Mono:style=Regular:pixelsize=14,xft:Dejavu Sans:pixelsize=14,xft:Noto Emoji
+URxvt.font: xft:MesloLGS Nerd Font Mono:style=Regular:pizelsize=11
+URxvt.letterSpace: -1
+URxvt.perl-ext-common: selection-to-clipboard,tabbed
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.tabbed.tabbar-fg: 6 
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
+
+URxvt.geometry: 80x24
